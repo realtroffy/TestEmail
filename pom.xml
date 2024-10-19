@@ -28,6 +28,7 @@
     </scm>
     <properties>
         <java.version>21</java.version>
+        <start-class>com.example.testemail.TestEmailApplication</start-class>
     </properties>
     <dependencies>
         <dependency>
@@ -53,6 +54,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.example.testemail.TestEmailApplication</mainClass>
+                    <layout>JAR</layout>
                 </configuration>
             </plugin>
         </plugins>
