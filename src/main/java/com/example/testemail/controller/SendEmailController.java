@@ -19,7 +19,7 @@ public class SendEmailController {
     @GetMapping("/emails")
     public ResponseEntity<String> sendEmail(@RequestParam("email") String email) {
         SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
-        simpleMailMessage.setFrom("artasiptsou@gmail.com");
+        simpleMailMessage.setFrom("off_86@bk.ru");
         simpleMailMessage.setTo(email);
         simpleMailMessage.setSubject("Test");
         simpleMailMessage.setText("Hello World");
